@@ -20,7 +20,7 @@ fi
 
 WKHTMLTOPDF_URL="https://github.com/wkhtmltopdf/packaging/releases/download/${WKHTMLTOPDF_VERSION}/wkhtmltox_${WKHTMLTOPDF_VERSION}.bionic_amd64.deb"
 WKHTMLTOPDF_DEB="$CACHE_DIR/wkhtmltox.deb"
-WKHTMLTOPDF_PATH="$TMP_PATH/wkhtmltox"
+WKHTMLTOPDF_PATH="$TMP_PATH/usr/local"
 WKHTMLTOPDF_BINARIES="$WKHTMLTOPDF_PATH/bin"
 WKHTMLTOPDF_LIBS="$WKHTMLTOPDF_PATH/lib"
 
