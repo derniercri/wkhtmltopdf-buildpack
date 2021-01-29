@@ -35,7 +35,7 @@ else
 fi
 
 echo "-----> Unpacking deb file"
-dpkg -x $DEB $TMP_PATH
+dpkg -x $WKHTMLTOPDF_DEB $TMP_PATH
 
 echo "-----> listing: " . $WKHTMLTOPDF_PATH
 ls $WKHTMLTOPDF_PATH
